@@ -1,4 +1,5 @@
 {
+  "jest-e2e":"jest-e2eとは、Jestのテストランナーを使用して、E2Eテストを実行するためのツールです。",
   "moduleFileExtensions": ["js", "json", "ts"],
   "rootDir": ".",
   "testEnvironment": "node",

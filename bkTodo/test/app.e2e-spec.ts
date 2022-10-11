@@ -1,8 +1,10 @@
+//app.e2e-spec.tsとは、E2Eテストのためのファイルです。
 import { Test, TestingModule } from '@nestjs/testing';
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
 import { AppModule } from './../src/app.module';
 
+// describeは、テストのグループ化を行うための関数です。
 describe('AppController (e2e)', () => {
   let app: INestApplication;
 

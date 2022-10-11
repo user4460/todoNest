@@ -1,4 +1,5 @@
 {
+  "comment":"prettierrcとは、prettierの設定ファイルです。",
   "singleQuote": true,
   "trailingComma": "all"
 }
