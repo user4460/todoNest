@@ -1,3 +1,4 @@
+//Injectableとは、DIコンテナに登録するためのデコレーター
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
