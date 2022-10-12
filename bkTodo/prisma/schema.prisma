@@ -1,9 +1,9 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-//利用は下記コード task.module.tsに追加
+//利用は下記コード task.module.tsに追加 https://pris.ly/d/prisma-schema
 //import { PrismaClient } from '@prisma/client'
 //const prisma = new PrismaClient()
+
+//migrationsフォルダと
+//migation_lock.tomlファイルが生成　コメントを書いていいのか
 
 generator client {
   provider = "prisma-client-js"

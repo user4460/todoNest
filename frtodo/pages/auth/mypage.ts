@@ -1,12 +1,13 @@
 //マイページのチュートリアルのコードhttps://ralacode.com/blog/post/react-firebase-authentication/
 import React, { useState, useEffect } from "react";
-import { onAuthStateChanged , signOut } from "firebase/auth";//
-import { auth } from "../../FirebaseConfig.js";
+//import { onAuthStateChanged, signOut } from "firebase/auth";//
+
 //import {   useNavigate,   Navigate } from "react-router-dom";
 import Link from 'next/link';
 
 /*"・ユーザー情報編集"	 "・ユーザー　・ID・名前・最終ログイン日"	 許可・ログインユーザー*/
 const Mypage = () => {
+   {/*
    //ログインしているユーザーの情報を管理するstate
    const [user, setUser] = useState("");
 
@@ -34,12 +35,11 @@ const Mypage = () => {
 　　　未完了・フッターメニュー・ユーザー・TODO・TODO"*/ }
 
    return (
-      <>
          {/* ローダーが表示される */}
          {/* ローダーとは、データを読み込む際に表示されるもの <=コパコメ*/}
-         {!loading && (
+         {/*{!loading && (
             <>
-               {/** ログインしているユーザーの情報を表示 */}
+               {/** ログインしているユーザーの情報を表示 }
                {!user ? (
                   <Link href="/signin/" />
                ) : (
@@ -50,8 +50,10 @@ const Mypage = () => {
                   </>
                )}
             </>
-         )}
-      </>
+         )
+}
+*/}
+      
    );
 };
 
