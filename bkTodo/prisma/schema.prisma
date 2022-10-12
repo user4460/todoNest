@@ -14,6 +14,8 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+
+//https://zenn.dev/devgeeeen/articles/125a076f81b0df
 model task {
   id      Int     @default(autoincrement()) @id
   title   String
