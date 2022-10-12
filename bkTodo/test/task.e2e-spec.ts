@@ -17,10 +17,19 @@ describe('AppController (e2e)', () => {
     await app.init();
   });
 
-  it('/ (GET)', () => {
+  /*
+  it('/tasks (GET)', () => {
     return request(app.getHttpServer())
-      .get('/')
+      .get('/tasks')
       .expect(200)
-      .expect('Hello World!');
+      .expect([]);
+  })
+  */
+  it('/tasks (POST)', () => {
+    return request(app.getHttpServer())
+      .post('/tasks')
+      .send({ title: 'test', description: 'test' })
+      .expect(201);
   });
-});
+   it
+})
