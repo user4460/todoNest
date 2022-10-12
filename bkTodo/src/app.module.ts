@@ -4,11 +4,12 @@ import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 //AppServiceとは、アプリケーションのルートサービスです。ルートサービスは、アプリケーションの全ての機能を提供するサービスです。
 import { AppService } from './app.service';
+import { TaskModule } from './task/task.module';
 
 //Moduleのデコレーター、@とは、デコレーターを宣言するための記号、
 //デコレーターとは、クラスに機能を追加するためのもの
 @Module({
-  imports: [],
+  imports: [TaskModule],
   controllers: [AppController],
   providers: [AppService],
 })

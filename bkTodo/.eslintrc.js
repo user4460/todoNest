@@ -1,4 +1,5 @@
 module.exports = {
+  comment:"eslintrcとは、ESLintの設定ファイルです。",
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: 'tsconfig.json',
