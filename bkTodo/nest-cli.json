@@ -1,5 +1,6 @@
 {
   "comment": "nest-cliとは、NestJSのコマンドラインツールです。",
+  "schecome": "schemaとは、データの構造を定義するものです。cllectionとは、データの集合です。",
   "$schema": "https://json.schemastore.org/nest-cli",
   "collection": "@nestjs/schematics",
   "sourceRoot": "src"
