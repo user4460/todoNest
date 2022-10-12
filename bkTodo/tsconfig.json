@@ -37,6 +37,7 @@
    */
   "compilerOptions": {
     "module": "commonjs",
+    "strict":false,//initから追記
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
