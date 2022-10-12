@@ -4,6 +4,7 @@
   "rootDir": ".",
   "testEnvironment": "node",
   "testRegex": ".e2e-spec.ts$",
+  //"allowJs": true,
   "transform": {
     "^.+\\.(t|j)s$": "ts-jest"
   }
