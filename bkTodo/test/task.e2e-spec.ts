@@ -31,5 +31,5 @@ describe('AppController (e2e)', () => {
       .send({ title: 'test', description: 'test' })
       .expect(201);
   });
-   it
+   it(
 })
