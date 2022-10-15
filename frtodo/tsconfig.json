@@ -6,7 +6,8 @@
   },
   "compilerOptions": {
     "jsx": "react",
-    "strict": false
+    "strict": false,
+    "skipLibCheck": true
   }
   /*    
       分からないのでコパイロットの自動生成、
