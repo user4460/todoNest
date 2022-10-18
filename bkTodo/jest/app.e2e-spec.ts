@@ -1,5 +1,6 @@
 //app.e2e-spec.tsとは、E2Eテストのためのファイルです。
 import { Test, TestingModule } from '@nestjs/testing';
+//TestとTestingModuleは、Nest.jsのテストモジュールです。
 import { INestApplication } from '@nestjs/common';
 import * as request from 'supertest';
 import { AppModule } from './../src/app.module';
